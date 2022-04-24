@@ -1,0 +1,6 @@
+{
+  "java.showBuildStatusOnStart.enabled": "notification",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
