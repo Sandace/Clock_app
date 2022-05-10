@@ -21,8 +21,8 @@ class _AlarmPageState extends State<AlarmPage> {
           );
         },
         
-        backgroundColor: Colors.grey,
-        label: const Text("Add Alarm", style: TextStyle(color: Colors.black),),
+        backgroundColor: Colors.blueGrey,
+        label: const Text("Add Alarm", style: TextStyle(color: Colors.white),),
         icon:const Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

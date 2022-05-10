@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:intl/intl.dart';
+// import 'package:intl/intl.dart';
 
 class AddAlarms extends StatefulWidget {
   const AddAlarms({Key? key}) : super(key: key);
@@ -59,7 +59,7 @@ class _AddAlarmsState extends State<AddAlarms> {
             bottom: 16,
             left: 110,
             child: FloatingActionButton(
-              backgroundColor:Colors.blueGrey.shade200,
+              backgroundColor:Colors.blueGrey,
               
               heroTag: 'back',
               
@@ -78,12 +78,12 @@ class _AddAlarmsState extends State<AddAlarms> {
             bottom: 16,
             right: 110,
             child: FloatingActionButton(
-              backgroundColor:Colors.blueGrey.shade200,
+              backgroundColor:Colors.blueGrey,
               
               heroTag: 'next',
               onPressed: (){},
+
                  child: const Icon(
-                   
                   Icons.cancel_rounded,
                   color: Colors.red,
                   
