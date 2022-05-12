@@ -22,7 +22,6 @@ class _StopwatchPageState extends State<StopwatchPage> {
   }
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       body: Center(
         child: Column(
@@ -103,7 +102,7 @@ class _StopwatchPageState extends State<StopwatchPage> {
               ],
             ),
             Container(
-              height: 120,
+              height: 150,
               margin: const EdgeInsets.all(8),
               child: StreamBuilder<List<StopWatchRecord>>(
                 stream: _stopWatchTimer.records,
@@ -132,7 +131,7 @@ class _StopwatchPageState extends State<StopwatchPage> {
                             child: Text(
                               '${index+1} - ${data.displayTime}',
                               style: const TextStyle(
-                                color: Colors.white,
+                                color: Colors.black,
                                 fontSize: 17,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -152,15 +151,5 @@ class _StopwatchPageState extends State<StopwatchPage> {
     );
   }
       
-}
-  // class CustomButton extends StatelessWidget{
-  //   final Color color;
-  //   final Function onPress;
-  //   final String label;
-
-  //   @override
-  //   Widget build(BuildContext context) {
-  //     return ElevatedButton(onPressed: onPressed, child: child);
-  //   }
-  // }    
+}  
     

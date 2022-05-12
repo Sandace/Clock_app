@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:clock_app/pages/alarm_page.dart';
 import 'package:clock_app/pages/clock_page.dart';
 import 'package:clock_app/pages/stopwatch_page.dart';
+import 'package:clock_app/pages/timer_page.dart';
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
@@ -69,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: StopwatchPage(),
             ),
             Center(
-              child: Text("It's sunny here"),
+              child: TimerPage(),
             ),
           ],
         ),
